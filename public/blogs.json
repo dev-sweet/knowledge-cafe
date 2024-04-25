@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "title": "How to get your first job as a self-taught programmer",
+      "img": "src/assets/images/2.png",
+      "author_name": "Emily Carter",
+      "author_img": "src/assets/images/boy1.png",
+      "published_date": "Mar 20 (4 days ago)",
+      "read_time": 8,
+      "hashtags": ["mindfulness", "selfcare", "meditation"]
+    },
+    {
+      "id": 2,
+      "title": "Mastering the Basics of JavaScript: A Beginner's Guide",
+      "img": "src/assets/images/1.jpg",
+      "author_name": "Alexandre Dubois",
+      "author_img": "src/assets/images/girl1",
+      "published_date": "Mar 18 (6 days ago)",
+      "read_time": 10,
+      "hashtags": ["astrophotography", "space", "photography"]
+    },
+    {
+      "id": 3,
+      "title": "How to get your first job as a self-taught programmer",
+      "img": "src/assets/images/3.png",
+      "author_name": "Sophia Lee",
+      "author_img": "src/assets/images/boy2.png",
+      "published_date": "Mar 16 (8 days ago)",
+      "read_time": 12,
+      "hashtags": ["sustainability", "greenliving", "ecofriendly"]
+    },
+    {
+      "id": 4,
+      "title": "Mastering the Basics of JavaScript: A Beginner's Guide",
+      "img": "src/assets/images/4.jpg",
+      "author_name": "Michael Johnson",
+      "author_img": "src/assets/images/girl2.jpg",
+      "published_date": "Mar 14 (10 days ago)",
+      "read_time": 15,
+      "hashtags": ["cooking", "recipes", "food"]
+    }
+  ]
+  
