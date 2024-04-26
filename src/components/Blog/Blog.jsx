@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { MdOutlineBookmarkBorder } from 'react-icons/md';
 const Blog = ({blog,handleBookmarks,handleMarkAsRead}) => {
-const {title,img,author_name,author_img,published_date,read_time,hashtags} = blog;
+const {title,img,author_name,author_img,published_date,read_time,hashtags,id} = blog;
     return (
         <div className='py-5'>
             <img className='w-full' src={img} alt="cover-img" />
@@ -17,7 +17,7 @@ const {title,img,author_name,author_img,published_date,read_time,hashtags} = blo
             </div>
             <h2 className='text-4xl'>{title}</h2>
             <p className="mt-2">{hashtags.map(hash => <span key ={hash} className='mr-2 text-blue'>#{hash}</span> )}</p>
-            <button onClick={()=>handleMarkAsRead(read_time)} className='text-[#0000FF] text-sm'>Mark as read</button>
+            <button onClick={()=>handleMarkAsRead(id,read_time)} className='text-[#0000FF] text-sm'>Mark as read</button>
         </div>
     );
 };
